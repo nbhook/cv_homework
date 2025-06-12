@@ -1,0 +1,4 @@
+nohup: ignoring input
+The model is running on cuda
+2000
+Test:  [   0/2000]  eta: 1 day, 0:51:50  mIoU: 0.6098 (0.6098)  time: 44.7551  data: 0.6671  max mem: 3001

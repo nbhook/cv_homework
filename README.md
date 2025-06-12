@@ -1,9 +1,11 @@
 # 基于clip的开放词汇语义分割模型结构对比
 
-本项目对比分析了三个基于 CLIP 的开放词汇语义分割模型：  
-1. **OVSeg**：通过训练视觉 prompt 适配 CLIP 到被遮挡图像上  
-2. **Side Adapter Network (SAN)**：在不修改 CLIP 主干的基础上，引入旁路结构提供空间感知能力  
-3. **CLIP as RNN (CaR)**：使用视觉提示+递归推理方式，引导 CLIP 逐步完成分割任务  
+
+本项目对比分析了三个基于 CLIP 的开放词汇语义分割模型：
+
+1. [**OVSeg**](https://github.com/facebookresearch/ov-seg)：通过训练视觉 prompt 适配 CLIP 到被遮挡图像上  
+2. [**Side Adapter Network (SAN)**](https://github.com/MendelXu/SAN)：在不修改 CLIP 主干的基础上，引入旁路结构提供空间感知能力  
+3. [**CLIP as RNN (CaR)**](https://github.com/google-research/google-research/tree/master/clip_as_rnn)：使用视觉提示 + 递归推理方式，引导 CLIP 逐步完成分割任务
 
 我们对这三种方法的结构差异与推理流程进行了分析，并修改了部分由于包版本更新导致的问题，便于运行测试与对比。
 
